@@ -8,4 +8,4 @@ steps:
       entrypoint: gcloud
       args: ['run', 'deploy','test-flask-hello-jules-ci-cd','--image' ,'gcr.io/cellular-axon-325108/flask-hello-jules:latest','--region','europe-west3','--port','80']
 # Push de l'image
-images: [gcr.io/cellular-axon-325108/flask-hello-jules-ci-cd:latest]
+images: [gcr.io/cellular-axon-325108/flask-hello-jules:latest]
