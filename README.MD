@@ -1,4 +1,5 @@
 # Cours CLI GCP
+COurs sur GCP avec CI/CD
 
 ## Prérequis
 
@@ -17,7 +18,7 @@ Se placer à la racine du projet
 gcloud init
 
 # Création d'une image
-gcloud builds submit 
+gcloud builds submit
 
 ```
 
