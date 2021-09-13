@@ -6,6 +6,6 @@ steps:
     - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
       waitFor: [A]
       entrypoint: gcloud
-      args: ['run', 'depoloy','test-flask-hello-jules-ci-cd','--image' ,'gcr.io/cellular-axon-325108/flask-hello-jules-ci-cd:latest','--region','europe-west3','--port','80']
+      args: ['run', 'deploy','test-flask-hello-jules-ci-cd','--image' ,'gcr.io/cellular-axon-325108/flask-hello-jules-ci-cd:latest','--region','europe-west3','--port','80']
 # Push de l'image
 images: [gcr.io/cellular-axon-325108/flask-hello-jules-ci-cd:latest]
