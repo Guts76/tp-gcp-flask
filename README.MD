@@ -26,7 +26,7 @@ L'image se trouve donc construite dans Google Build
 
 On peut ensuite exécuter un conteneur avec Cloud Run > Créer un service et remplir les options demandées
 
-Ici on peut le lier à
+Ici on peut le lier à un dossier GitHub pour pouvoir faire de la CI et du CD
 
 ## Notes
 
